@@ -26,7 +26,7 @@ func main() {
 	a := &ExampleA{} //populate with some data
 	b := &ExampleB{} //populate with some data
 	
-	result := Fuse(a, b).(ExampleA)
+	result := Fuse(a, b).(ExampleB)
 
 }
 ```
